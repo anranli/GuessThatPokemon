@@ -2,7 +2,6 @@
 //  main.m
 //  GuessThatPokemon
 //
-//  Created by Xin Liu on 12/11/13.
 //  Copyright (c) 2013 Anran Li. All rights reserved.
 //
 

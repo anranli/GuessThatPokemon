@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81CF1E2A18592B06001C5083"
-               BuildableName = "GuessThatPokemon.app"
-               BlueprintName = "GuessThatPokemon"
+               BlueprintIdentifier = "81ADC98A185B64330084D0BC"
+               BuildableName = "GuessThatPokemonMac.app"
+               BlueprintName = "GuessThatPokemonMac"
                ReferencedContainer = "container:GuessThatPokemon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81CF1E4E18592B06001C5083"
-               BuildableName = "GuessThatPokemonTests.xctest"
-               BlueprintName = "GuessThatPokemonTests"
-               ReferencedContainer = "container:GuessThatPokemon.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81ADC9A9185B64330084D0BC"
-               BuildableName = "GuessThatPokemonMacTests.xctest"
-               BlueprintName = "GuessThatPokemonMacTests"
-               ReferencedContainer = "container:GuessThatPokemon.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81CF1E2A18592B06001C5083"
-            BuildableName = "GuessThatPokemon.app"
-            BlueprintName = "GuessThatPokemon"
+            BlueprintIdentifier = "81ADC98A185B64330084D0BC"
+            BuildableName = "GuessThatPokemonMac.app"
+            BlueprintName = "GuessThatPokemonMac"
             ReferencedContainer = "container:GuessThatPokemon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81CF1E2A18592B06001C5083"
-            BuildableName = "GuessThatPokemon.app"
-            BlueprintName = "GuessThatPokemon"
+            BlueprintIdentifier = "81ADC98A185B64330084D0BC"
+            BuildableName = "GuessThatPokemonMac.app"
+            BlueprintName = "GuessThatPokemonMac"
             ReferencedContainer = "container:GuessThatPokemon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81CF1E2A18592B06001C5083"
-            BuildableName = "GuessThatPokemon.app"
-            BlueprintName = "GuessThatPokemon"
+            BlueprintIdentifier = "81ADC98A185B64330084D0BC"
+            BuildableName = "GuessThatPokemonMac.app"
+            BlueprintName = "GuessThatPokemonMac"
             ReferencedContainer = "container:GuessThatPokemon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

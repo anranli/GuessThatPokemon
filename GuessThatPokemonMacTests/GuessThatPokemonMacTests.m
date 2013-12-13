@@ -1,17 +1,18 @@
 //
-//  GuessThatPokemonTests.m
-//  GuessThatPokemonTests
+//  GuessThatPokemonMacTests.m
+//  GuessThatPokemonMacTests
 //
+//  Created by Xin Liu on 12/13/13.
 //  Copyright (c) 2013 Anran Li. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface GuessThatPokemonTests : XCTestCase
+@interface GuessThatPokemonMacTests : XCTestCase
 
 @end
 
-@implementation GuessThatPokemonTests
+@implementation GuessThatPokemonMacTests
 
 - (void)setUp
 {

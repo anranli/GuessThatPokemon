@@ -7,24 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8184639D185AB36400C3CA32 /* CHESNAUGHT.png in Resources */ = {isa = PBXBuildFile; fileRef = 81846399185AB36400C3CA32 /* CHESNAUGHT.png */; };
+		8184639E185AB36400C3CA32 /* CHESPIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184639A185AB36400C3CA32 /* CHESPIN.png */; };
+		8184639F185AB36400C3CA32 /* FENNEKIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184639B185AB36400C3CA32 /* FENNEKIN.png */; };
+		818463A0185AB36400C3CA32 /* QUILLADIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184639C185AB36400C3CA32 /* QUILLADIN.png */; };
+		819B276E185AA25700223D4D /* pokemon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 819B276D185AA25700223D4D /* pokemon.plist */; };
+		81ADC98D185B64330084D0BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADC98C185B64330084D0BC /* Cocoa.framework */; };
+		81ADC997185B64330084D0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC995185B64330084D0BC /* InfoPlist.strings */; };
+		81ADC999185B64330084D0BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADC998185B64330084D0BC /* main.m */; };
+		81ADC99D185B64330084D0BC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC99B185B64330084D0BC /* Credits.rtf */; };
+		81ADC9A0185B64330084D0BC /* GuessThatPokemonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADC99F185B64330084D0BC /* GuessThatPokemonAppDelegate.m */; };
+		81ADC9A3185B64330084D0BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9A1185B64330084D0BC /* MainMenu.xib */; };
+		81ADC9A5185B64330084D0BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9A4185B64330084D0BC /* Images.xcassets */; };
+		81ADC9AB185B64340084D0BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E5018592B06001C5083 /* XCTest.framework */; };
+		81ADC9AC185B64340084D0BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADC98C185B64330084D0BC /* Cocoa.framework */; };
+		81ADC9B4185B64340084D0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9B2185B64340084D0BC /* InfoPlist.strings */; };
+		81ADC9B6185B64340084D0BC /* GuessThatPokemonMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADC9B5185B64340084D0BC /* GuessThatPokemonMacTests.m */; };
+		81ADC9BF185B64720084D0BC /* GuessThatPokemonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADC9BE185B64720084D0BC /* GuessThatPokemonView.m */; };
+		81ADC9C2185B64890084D0BC /* GuessThatPokemonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADC9C1185B64890084D0BC /* GuessThatPokemonViewController.m */; };
+		81ADC9C5185B64A70084D0BC /* GuessThatPokemonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ADC9C4185B64A70084D0BC /* GuessThatPokemonModel.m */; };
+		81ADC9C7185B7AE30084D0BC /* pokemon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9C6185B7AE30084D0BC /* pokemon.plist */; };
+		81ADC9CD185B7B570084D0BC /* CHESNAUGHT.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9C9185B7B570084D0BC /* CHESNAUGHT.png */; };
+		81ADC9CE185B7B570084D0BC /* CHESPIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9CA185B7B570084D0BC /* CHESPIN.png */; };
+		81ADC9CF185B7B570084D0BC /* FENNEKIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9CB185B7B570084D0BC /* FENNEKIN.png */; };
+		81ADC9D0185B7B570084D0BC /* QUILLADIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ADC9CC185B7B570084D0BC /* QUILLADIN.png */; };
 		81CF1E2F18592B06001C5083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E2E18592B06001C5083 /* Foundation.framework */; };
 		81CF1E3118592B06001C5083 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E3018592B06001C5083 /* CoreGraphics.framework */; };
 		81CF1E3318592B06001C5083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E3218592B06001C5083 /* UIKit.framework */; };
 		81CF1E3918592B06001C5083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CF1E3718592B06001C5083 /* InfoPlist.strings */; };
 		81CF1E3B18592B06001C5083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E3A18592B06001C5083 /* main.m */; };
-		81CF1E3F18592B06001C5083 /* GuessThatPokemonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E3E18592B06001C5083 /* GuessThatPokemonAppDelegate.m */; };
+		81CF1E3F18592B06001C5083 /* GuessThatPokemonAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E3E18592B06001C5083 /* GuessThatPokemonAppDelegate.mm */; };
 		81CF1E4218592B06001C5083 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CF1E4018592B06001C5083 /* Main_iPhone.storyboard */; };
 		81CF1E4518592B06001C5083 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CF1E4318592B06001C5083 /* Main_iPad.storyboard */; };
-		81CF1E4818592B06001C5083 /* GuessThatPokemonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E4718592B06001C5083 /* GuessThatPokemonViewController.m */; };
+		81CF1E4818592B06001C5083 /* GuessThatPokemonViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E4718592B06001C5083 /* GuessThatPokemonViewController.mm */; };
 		81CF1E4A18592B06001C5083 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CF1E4918592B06001C5083 /* Images.xcassets */; };
 		81CF1E5118592B06001C5083 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E5018592B06001C5083 /* XCTest.framework */; };
 		81CF1E5218592B06001C5083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E2E18592B06001C5083 /* Foundation.framework */; };
 		81CF1E5318592B06001C5083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF1E3218592B06001C5083 /* UIKit.framework */; };
 		81CF1E5B18592B06001C5083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CF1E5918592B06001C5083 /* InfoPlist.strings */; };
 		81CF1E5D18592B06001C5083 /* GuessThatPokemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E5C18592B06001C5083 /* GuessThatPokemonTests.m */; };
+		81CF1E6818593A3A001C5083 /* GuessThatPokemonModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E6718593A3A001C5083 /* GuessThatPokemonModel.mm */; };
+		81CF1E6B185946B0001C5083 /* GuessThatPokemonView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E6A185946B0001C5083 /* GuessThatPokemonView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		81ADC9AD185B64340084D0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CF1E2318592B06001C5083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ADC98A185B64330084D0BC;
+			remoteInfo = GuessThatPokemonMac;
+		};
 		81CF1E5418592B06001C5083 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 81CF1E2318592B06001C5083 /* Project object */;
@@ -35,6 +68,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81846399185AB36400C3CA32 /* CHESNAUGHT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHESNAUGHT.png; sourceTree = "<group>"; };
+		8184639A185AB36400C3CA32 /* CHESPIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHESPIN.png; sourceTree = "<group>"; };
+		8184639B185AB36400C3CA32 /* FENNEKIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FENNEKIN.png; sourceTree = "<group>"; };
+		8184639C185AB36400C3CA32 /* QUILLADIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QUILLADIN.png; sourceTree = "<group>"; };
+		819B276D185AA25700223D4D /* pokemon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pokemon.plist; sourceTree = "<group>"; };
+		81ADC98B185B64330084D0BC /* GuessThatPokemonMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessThatPokemonMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ADC98C185B64330084D0BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		81ADC98F185B64330084D0BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		81ADC990185B64330084D0BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		81ADC991185B64330084D0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81ADC994185B64330084D0BC /* GuessThatPokemonMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessThatPokemonMac-Info.plist"; sourceTree = "<group>"; };
+		81ADC996185B64330084D0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81ADC998185B64330084D0BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81ADC99A185B64330084D0BC /* GuessThatPokemonMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessThatPokemonMac-Prefix.pch"; sourceTree = "<group>"; };
+		81ADC99C185B64330084D0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		81ADC99E185B64330084D0BC /* GuessThatPokemonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonAppDelegate.h; sourceTree = "<group>"; };
+		81ADC99F185B64330084D0BC /* GuessThatPokemonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonAppDelegate.m; sourceTree = "<group>"; };
+		81ADC9A2185B64330084D0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		81ADC9A4185B64330084D0BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81ADC9AA185B64340084D0BC /* GuessThatPokemonMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessThatPokemonMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ADC9B1185B64340084D0BC /* GuessThatPokemonMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessThatPokemonMacTests-Info.plist"; sourceTree = "<group>"; };
+		81ADC9B3185B64340084D0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81ADC9B5185B64340084D0BC /* GuessThatPokemonMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonMacTests.m; sourceTree = "<group>"; };
+		81ADC9BD185B64720084D0BC /* GuessThatPokemonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonView.h; sourceTree = "<group>"; };
+		81ADC9BE185B64720084D0BC /* GuessThatPokemonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonView.m; sourceTree = "<group>"; };
+		81ADC9C0185B64890084D0BC /* GuessThatPokemonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonViewController.h; sourceTree = "<group>"; };
+		81ADC9C1185B64890084D0BC /* GuessThatPokemonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonViewController.m; sourceTree = "<group>"; };
+		81ADC9C3185B64A70084D0BC /* GuessThatPokemonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonModel.h; sourceTree = "<group>"; };
+		81ADC9C4185B64A70084D0BC /* GuessThatPokemonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonModel.m; sourceTree = "<group>"; };
+		81ADC9C6185B7AE30084D0BC /* pokemon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pokemon.plist; sourceTree = "<group>"; };
+		81ADC9C9185B7B570084D0BC /* CHESNAUGHT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHESNAUGHT.png; sourceTree = "<group>"; };
+		81ADC9CA185B7B570084D0BC /* CHESPIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHESPIN.png; sourceTree = "<group>"; };
+		81ADC9CB185B7B570084D0BC /* FENNEKIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FENNEKIN.png; sourceTree = "<group>"; };
+		81ADC9CC185B7B570084D0BC /* QUILLADIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QUILLADIN.png; sourceTree = "<group>"; };
 		81CF1E2B18592B06001C5083 /* GuessThatPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessThatPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CF1E2E18592B06001C5083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81CF1E3018592B06001C5083 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,20 +111,41 @@
 		81CF1E3A18592B06001C5083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81CF1E3C18592B06001C5083 /* GuessThatPokemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessThatPokemon-Prefix.pch"; sourceTree = "<group>"; };
 		81CF1E3D18592B06001C5083 /* GuessThatPokemonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonAppDelegate.h; sourceTree = "<group>"; };
-		81CF1E3E18592B06001C5083 /* GuessThatPokemonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonAppDelegate.m; sourceTree = "<group>"; };
+		81CF1E3E18592B06001C5083 /* GuessThatPokemonAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GuessThatPokemonAppDelegate.mm; sourceTree = "<group>"; };
 		81CF1E4118592B06001C5083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		81CF1E4418592B06001C5083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		81CF1E4618592B06001C5083 /* GuessThatPokemonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonViewController.h; sourceTree = "<group>"; };
-		81CF1E4718592B06001C5083 /* GuessThatPokemonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonViewController.m; sourceTree = "<group>"; };
+		81CF1E4718592B06001C5083 /* GuessThatPokemonViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GuessThatPokemonViewController.mm; sourceTree = "<group>"; };
 		81CF1E4918592B06001C5083 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81CF1E4F18592B06001C5083 /* GuessThatPokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessThatPokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CF1E5018592B06001C5083 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		81CF1E5818592B06001C5083 /* GuessThatPokemonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessThatPokemonTests-Info.plist"; sourceTree = "<group>"; };
 		81CF1E5A18592B06001C5083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81CF1E5C18592B06001C5083 /* GuessThatPokemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessThatPokemonTests.m; sourceTree = "<group>"; };
+		81CF1E6618593A3A001C5083 /* GuessThatPokemonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonModel.h; sourceTree = "<group>"; };
+		81CF1E6718593A3A001C5083 /* GuessThatPokemonModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GuessThatPokemonModel.mm; sourceTree = "<group>"; };
+		81CF1E69185946B0001C5083 /* GuessThatPokemonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessThatPokemonView.h; sourceTree = "<group>"; };
+		81CF1E6A185946B0001C5083 /* GuessThatPokemonView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GuessThatPokemonView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		81ADC988185B64330084D0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ADC98D185B64330084D0BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ADC9A7185B64330084D0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ADC9AC185B64340084D0BC /* Cocoa.framework in Frameworks */,
+				81ADC9AB185B64340084D0BC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81CF1E2818592B06001C5083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,11 +169,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81846398185AB36400C3CA32 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				81846399185AB36400C3CA32 /* CHESNAUGHT.png */,
+				8184639A185AB36400C3CA32 /* CHESPIN.png */,
+				8184639B185AB36400C3CA32 /* FENNEKIN.png */,
+				8184639C185AB36400C3CA32 /* QUILLADIN.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		81ADC98E185B64330084D0BC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81ADC98F185B64330084D0BC /* AppKit.framework */,
+				81ADC990185B64330084D0BC /* CoreData.framework */,
+				81ADC991185B64330084D0BC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		81ADC992185B64330084D0BC /* GuessThatPokemonMac */ = {
+			isa = PBXGroup;
+			children = (
+				81ADC9C8185B7B570084D0BC /* img */,
+				81ADC99E185B64330084D0BC /* GuessThatPokemonAppDelegate.h */,
+				81ADC99F185B64330084D0BC /* GuessThatPokemonAppDelegate.m */,
+				81ADC9A1185B64330084D0BC /* MainMenu.xib */,
+				81ADC9A4185B64330084D0BC /* Images.xcassets */,
+				81ADC993185B64330084D0BC /* Supporting Files */,
+				81ADC9BD185B64720084D0BC /* GuessThatPokemonView.h */,
+				81ADC9BE185B64720084D0BC /* GuessThatPokemonView.m */,
+				81ADC9C0185B64890084D0BC /* GuessThatPokemonViewController.h */,
+				81ADC9C1185B64890084D0BC /* GuessThatPokemonViewController.m */,
+				81ADC9C3185B64A70084D0BC /* GuessThatPokemonModel.h */,
+				81ADC9C4185B64A70084D0BC /* GuessThatPokemonModel.m */,
+				81ADC9C6185B7AE30084D0BC /* pokemon.plist */,
+			);
+			path = GuessThatPokemonMac;
+			sourceTree = "<group>";
+		};
+		81ADC993185B64330084D0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81ADC994185B64330084D0BC /* GuessThatPokemonMac-Info.plist */,
+				81ADC995185B64330084D0BC /* InfoPlist.strings */,
+				81ADC998185B64330084D0BC /* main.m */,
+				81ADC99A185B64330084D0BC /* GuessThatPokemonMac-Prefix.pch */,
+				81ADC99B185B64330084D0BC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81ADC9AF185B64340084D0BC /* GuessThatPokemonMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				81ADC9B5185B64340084D0BC /* GuessThatPokemonMacTests.m */,
+				81ADC9B0185B64340084D0BC /* Supporting Files */,
+			);
+			path = GuessThatPokemonMacTests;
+			sourceTree = "<group>";
+		};
+		81ADC9B0185B64340084D0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81ADC9B1185B64340084D0BC /* GuessThatPokemonMacTests-Info.plist */,
+				81ADC9B2185B64340084D0BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81ADC9C8185B7B570084D0BC /* img */ = {
+			isa = PBXGroup;
+			children = (
+				81ADC9C9185B7B570084D0BC /* CHESNAUGHT.png */,
+				81ADC9CA185B7B570084D0BC /* CHESPIN.png */,
+				81ADC9CB185B7B570084D0BC /* FENNEKIN.png */,
+				81ADC9CC185B7B570084D0BC /* QUILLADIN.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		81CF1E2218592B06001C5083 = {
 			isa = PBXGroup;
 			children = (
 				81CF1E3418592B06001C5083 /* GuessThatPokemon */,
 				81CF1E5618592B06001C5083 /* GuessThatPokemonTests */,
+				81ADC992185B64330084D0BC /* GuessThatPokemonMac */,
+				81ADC9AF185B64340084D0BC /* GuessThatPokemonMacTests */,
 				81CF1E2D18592B06001C5083 /* Frameworks */,
 				81CF1E2C18592B06001C5083 /* Products */,
 			);
@@ -96,6 +268,8 @@
 			children = (
 				81CF1E2B18592B06001C5083 /* GuessThatPokemon.app */,
 				81CF1E4F18592B06001C5083 /* GuessThatPokemonTests.xctest */,
+				81ADC98B185B64330084D0BC /* GuessThatPokemonMac.app */,
+				81ADC9AA185B64340084D0BC /* GuessThatPokemonMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +281,8 @@
 				81CF1E3018592B06001C5083 /* CoreGraphics.framework */,
 				81CF1E3218592B06001C5083 /* UIKit.framework */,
 				81CF1E5018592B06001C5083 /* XCTest.framework */,
+				81ADC98C185B64330084D0BC /* Cocoa.framework */,
+				81ADC98E185B64330084D0BC /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,14 +290,20 @@
 		81CF1E3418592B06001C5083 /* GuessThatPokemon */ = {
 			isa = PBXGroup;
 			children = (
+				81846398185AB36400C3CA32 /* img */,
+				81CF1E6618593A3A001C5083 /* GuessThatPokemonModel.h */,
+				81CF1E6718593A3A001C5083 /* GuessThatPokemonModel.mm */,
+				81CF1E4618592B06001C5083 /* GuessThatPokemonViewController.h */,
+				81CF1E4718592B06001C5083 /* GuessThatPokemonViewController.mm */,
+				81CF1E69185946B0001C5083 /* GuessThatPokemonView.h */,
+				81CF1E6A185946B0001C5083 /* GuessThatPokemonView.mm */,
 				81CF1E3D18592B06001C5083 /* GuessThatPokemonAppDelegate.h */,
-				81CF1E3E18592B06001C5083 /* GuessThatPokemonAppDelegate.m */,
+				81CF1E3E18592B06001C5083 /* GuessThatPokemonAppDelegate.mm */,
 				81CF1E4018592B06001C5083 /* Main_iPhone.storyboard */,
 				81CF1E4318592B06001C5083 /* Main_iPad.storyboard */,
-				81CF1E4618592B06001C5083 /* GuessThatPokemonViewController.h */,
-				81CF1E4718592B06001C5083 /* GuessThatPokemonViewController.m */,
 				81CF1E4918592B06001C5083 /* Images.xcassets */,
 				81CF1E3518592B06001C5083 /* Supporting Files */,
+				819B276D185AA25700223D4D /* pokemon.plist */,
 			);
 			path = GuessThatPokemon;
 			sourceTree = "<group>";
@@ -158,6 +340,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		81ADC98A185B64330084D0BC /* GuessThatPokemonMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ADC9B7185B64340084D0BC /* Build configuration list for PBXNativeTarget "GuessThatPokemonMac" */;
+			buildPhases = (
+				81ADC987185B64330084D0BC /* Sources */,
+				81ADC988185B64330084D0BC /* Frameworks */,
+				81ADC989185B64330084D0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessThatPokemonMac;
+			productName = GuessThatPokemonMac;
+			productReference = 81ADC98B185B64330084D0BC /* GuessThatPokemonMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81ADC9A9185B64330084D0BC /* GuessThatPokemonMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ADC9BA185B64340084D0BC /* Build configuration list for PBXNativeTarget "GuessThatPokemonMacTests" */;
+			buildPhases = (
+				81ADC9A6185B64330084D0BC /* Sources */,
+				81ADC9A7185B64330084D0BC /* Frameworks */,
+				81ADC9A8185B64330084D0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ADC9AE185B64340084D0BC /* PBXTargetDependency */,
+			);
+			name = GuessThatPokemonMacTests;
+			productName = GuessThatPokemonMacTests;
+			productReference = 81ADC9AA185B64340084D0BC /* GuessThatPokemonMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		81CF1E2A18592B06001C5083 /* GuessThatPokemon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81CF1E6018592B06001C5083 /* Build configuration list for PBXNativeTarget "GuessThatPokemon" */;
@@ -203,6 +420,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Anran Li";
 				TargetAttributes = {
+					81ADC9A9185B64330084D0BC = {
+						TestTargetID = 81CF1E2A18592B06001C5083;
+					};
 					81CF1E4E18592B06001C5083 = {
 						TestTargetID = 81CF1E2A18592B06001C5083;
 					};
@@ -223,19 +443,50 @@
 			targets = (
 				81CF1E2A18592B06001C5083 /* GuessThatPokemon */,
 				81CF1E4E18592B06001C5083 /* GuessThatPokemonTests */,
+				81ADC98A185B64330084D0BC /* GuessThatPokemonMac */,
+				81ADC9A9185B64330084D0BC /* GuessThatPokemonMacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		81ADC989185B64330084D0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ADC997185B64330084D0BC /* InfoPlist.strings in Resources */,
+				81ADC9C7185B7AE30084D0BC /* pokemon.plist in Resources */,
+				81ADC9A5185B64330084D0BC /* Images.xcassets in Resources */,
+				81ADC9CD185B7B570084D0BC /* CHESNAUGHT.png in Resources */,
+				81ADC99D185B64330084D0BC /* Credits.rtf in Resources */,
+				81ADC9CF185B7B570084D0BC /* FENNEKIN.png in Resources */,
+				81ADC9CE185B7B570084D0BC /* CHESPIN.png in Resources */,
+				81ADC9A3185B64330084D0BC /* MainMenu.xib in Resources */,
+				81ADC9D0185B7B570084D0BC /* QUILLADIN.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ADC9A8185B64330084D0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ADC9B4185B64340084D0BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81CF1E2918592B06001C5083 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81CF1E4518592B06001C5083 /* Main_iPad.storyboard in Resources */,
+				819B276E185AA25700223D4D /* pokemon.plist in Resources */,
 				81CF1E4A18592B06001C5083 /* Images.xcassets in Resources */,
+				8184639D185AB36400C3CA32 /* CHESNAUGHT.png in Resources */,
 				81CF1E4218592B06001C5083 /* Main_iPhone.storyboard in Resources */,
+				8184639F185AB36400C3CA32 /* FENNEKIN.png in Resources */,
+				8184639E185AB36400C3CA32 /* CHESPIN.png in Resources */,
 				81CF1E3918592B06001C5083 /* InfoPlist.strings in Resources */,
+				818463A0185AB36400C3CA32 /* QUILLADIN.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +501,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		81ADC987185B64330084D0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ADC999185B64330084D0BC /* main.m in Sources */,
+				81ADC9BF185B64720084D0BC /* GuessThatPokemonView.m in Sources */,
+				81ADC9C2185B64890084D0BC /* GuessThatPokemonViewController.m in Sources */,
+				81ADC9C5185B64A70084D0BC /* GuessThatPokemonModel.m in Sources */,
+				81ADC9A0185B64330084D0BC /* GuessThatPokemonAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ADC9A6185B64330084D0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ADC9B6185B64340084D0BC /* GuessThatPokemonMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81CF1E2718592B06001C5083 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CF1E6818593A3A001C5083 /* GuessThatPokemonModel.mm in Sources */,
+				81CF1E6B185946B0001C5083 /* GuessThatPokemonView.mm in Sources */,
 				81CF1E3B18592B06001C5083 /* main.m in Sources */,
-				81CF1E3F18592B06001C5083 /* GuessThatPokemonAppDelegate.m in Sources */,
-				81CF1E4818592B06001C5083 /* GuessThatPokemonViewController.m in Sources */,
+				81CF1E3F18592B06001C5083 /* GuessThatPokemonAppDelegate.mm in Sources */,
+				81CF1E4818592B06001C5083 /* GuessThatPokemonViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +544,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		81ADC9AE185B64340084D0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ADC98A185B64330084D0BC /* GuessThatPokemonMac */;
+			targetProxy = 81ADC9AD185B64340084D0BC /* PBXContainerItemProxy */;
+		};
 		81CF1E5518592B06001C5083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 81CF1E2A18592B06001C5083 /* GuessThatPokemon */;
@@ -279,6 +557,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		81ADC995185B64330084D0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ADC996185B64330084D0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81ADC99B185B64330084D0BC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ADC99C185B64330084D0BC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		81ADC9A1185B64330084D0BC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ADC9A2185B64330084D0BC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		81ADC9B2185B64340084D0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ADC9B3185B64340084D0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		81CF1E3718592B06001C5083 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -314,6 +624,100 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		81ADC9B8185B64340084D0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessThatPokemonMac/GuessThatPokemonMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuessThatPokemonMac/GuessThatPokemonMac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81ADC9B9185B64340084D0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessThatPokemonMac/GuessThatPokemonMac-Prefix.pch";
+				INFOPLIST_FILE = "GuessThatPokemonMac/GuessThatPokemonMac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81ADC9BB185B64340084D0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuessThatPokemon.app/GuessThatPokemon";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessThatPokemonMac/GuessThatPokemonMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuessThatPokemonMacTests/GuessThatPokemonMacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		81ADC9BC185B64340084D0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuessThatPokemon.app/GuessThatPokemon";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessThatPokemonMac/GuessThatPokemonMac-Prefix.pch";
+				INFOPLIST_FILE = "GuessThatPokemonMacTests/GuessThatPokemonMacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		81CF1E5E18592B06001C5083 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,7 +726,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -362,7 +766,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -393,6 +797,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuessThatPokemon/GuessThatPokemon-Prefix.pch";
 				INFOPLIST_FILE = "GuessThatPokemon/GuessThatPokemon-Info.plist";
@@ -406,6 +811,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuessThatPokemon/GuessThatPokemon-Prefix.pch";
 				INFOPLIST_FILE = "GuessThatPokemon/GuessThatPokemon-Info.plist";
@@ -459,6 +865,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		81ADC9B7185B64340084D0BC /* Build configuration list for PBXNativeTarget "GuessThatPokemonMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ADC9B8185B64340084D0BC /* Debug */,
+				81ADC9B9185B64340084D0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81ADC9BA185B64340084D0BC /* Build configuration list for PBXNativeTarget "GuessThatPokemonMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ADC9BB185B64340084D0BC /* Debug */,
+				81ADC9BC185B64340084D0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		81CF1E2618592B06001C5083 /* Build configuration list for PBXProject "GuessThatPokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -475,6 +897,7 @@
 				81CF1E6218592B06001C5083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81CF1E6318592B06001C5083 /* Build configuration list for PBXNativeTarget "GuessThatPokemonTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +906,7 @@
 				81CF1E6518592B06001C5083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

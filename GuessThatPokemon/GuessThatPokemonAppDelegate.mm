@@ -2,18 +2,33 @@
 //  GuessThatPokemonAppDelegate.m
 //  GuessThatPokemon
 //
-//  Created by Xin Liu on 12/11/13.
 //  Copyright (c) 2013 Anran Li. All rights reserved.
 //
 
 #import "GuessThatPokemonAppDelegate.h"
+#import "GuessThatPokemonViewController.h"
 
 @implementation GuessThatPokemonAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        self.viewController = [[[GuessThatPokemonViewController alloc] initWithNibName:@"GuessThatPokemonViewController_iPhone" bundle:nil] autorelease];
+    } else {
+        self.viewController = [[[GuessThatPokemonViewController alloc] initWithNibName:@"GuessThatPokemonViewController_iPad" bundle:nil] autorelease];
+    }
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)dealloc
+{
+    [_window release];
+    [_viewController release];
+    [super dealloc];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
